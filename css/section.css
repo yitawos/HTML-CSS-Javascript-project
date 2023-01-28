@@ -1,0 +1,105 @@
+section{
+    margin-top: 100px;
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+ .img{
+    width: 650px;
+    margin: 0 auto;
+}
+
+aside{
+    margin-right: 5px;
+    width: 250px;
+    height: auto;
+    border: 1px solid black;
+    float: left;
+    margin-bottom: 5px;
+}
+
+img{
+    width: 450px;
+   margin-left: 5px;
+}
+
+.body{
+    display: flex;
+}
+
+.popup{
+    border: 1px solid black;
+    width: 450px;
+    height: 480px;
+    position:absolute;
+    left: 40%;
+    right: 50%;
+    top: 50%;
+    background-color: gray;
+    opacity: 0.6;
+    text-align: center;
+    display: none;
+    text-align: center;
+    border-radius: 20%;
+}
+
+.courses{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.courses span{
+   color: red;
+   margin: 2px;
+   font-weight: 22px;
+}
+
+.courses button{
+    margin-top: 60px;
+    width: 60px;
+    background-color: darkcyan;
+    color: blue;
+}
+
+.popup h2 , h1{
+   font-weight: bold ;
+}
+
+.popup p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 20px;
+    padding: 0px 5px;
+}
+ .popup img{
+    width: 200px;
+ }
+
+ .aside-head{
+    text-align: center;
+ }
+
+ .aside-h1 , .aside-h2{
+    margin: 5px;
+    border: 1px solid goldenrod;
+    background-color: silver;
+    height: auto;
+    
+ }
+ .aside-h3{
+    margin: 5px;
+    border: 1px solid goldenrod;
+    background-color:lawngreen;
+    height: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+ }
+
+ .aside-h3 label{
+    font-weight: bolder;
+    font-size: 20px;
+ }
