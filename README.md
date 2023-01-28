@@ -1,2 +1,2 @@
-# HTML-and-CSS
-html and css project
+# html_css_javascript project
+
